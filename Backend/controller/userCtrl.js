@@ -12,7 +12,7 @@ const crypto = require("crypto");
 const jwt = require("jsonwebtoken");
 const sendEmail = require("./emailCtrl");
 const { createPasswordResetToken } = require("../models/userModel");
-const validateMongoDbId = require("../utils/validateMongodbId");
+const validateMongoDbId = require("../utils/validateMongoDbId");
 
 
 // Create a User ----------------------------------------------
